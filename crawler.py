@@ -1,9 +1,3 @@
-# 三民書局暢銷總榜 → MariaDB
-# 題目和提示見 README.md
-# 執行前先設定帳密（DB_HOST 請改成你 VM 的 IP；程式在 VM 裡跑就用 localhost）：
-#   export DB_HOST=192.168.x.x DB_USER=ricky DB_PASS=ricky DB_NAME=rickycrawer
-# 執行：python crawler.py
-
 import datetime
 import os
 import time
